@@ -14,8 +14,7 @@
     Responsável: Thiago Basilio
 
 ## Introdução
-Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por
-**Thiago Basilio**.  
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por **Thiago Basilio**.  
 O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.  
 Após um estudo levantado pela equipe de DevOps juntamente com a Governança de TI, e empresa optou como meta de curto  
 e medio prazo, a migração de seus serviços para o ambiente cloud, na expectativa de flexibilizar e economizar com 
@@ -77,8 +76,13 @@ melhorar ainda mais os processos da empresa.
 ![service-archtecture.drawio.svg](service-archtecture.drawio.svg)
 
 ### Estimativa de Custo:
-A estimativa do custo no ambiente de Desenvolvimento/Testes será de aproximadamente $8.010,00, 
-equivalente a R\$42.785,00 anuais  
+A estimativa do custo total no ambiente de Desenvolvimento/Testes será de aproximadamente R\$ 42.785,00 anuais
+
+| Periodo | Custo em dolares | Custo em reais |
+|:--------|:----------------:|:---------------|
+| Mensal  |     $ 667,56     | R$ 3.498,00    |
+| Anual   |    $ 8.010,72    | R$ 42.785,00   |
+
 Para mais informações acesso o documento: [Custo Estimado](estimated-cost.pdf), ou acesse o link 
 [Calculo estimado AWS](https://calculator.aws/#/estimate?id=f70a9a9433c4533e9b15dbb8fd07e08e407df639) 
 
