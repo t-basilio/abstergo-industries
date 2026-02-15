@@ -51,7 +51,9 @@ Para mais informações, acesse: [AWS Fargate](https://aws.amazon.com/pt/fargate
 ✅ **Etapa 3:** Implantação do serviço de mensagerias
 - **Amazon SQS**
 - Filas de mensagens gerenciadas para microsserviços, sistemas distribuídos e aplicações sem servidor
-- Esse serviço será responsável por prover a comunicação assíncriona entre nossos microserviços, tais como:
+- Esse serviço será responsável por prover a comunicação assíncriona entre nossos microserviços e a aplicação frontend.   
+Nossos microsserviços irão consumir as mensagens das filas, bem como notificar o frontend sobre quaisquer atualizações, 
+alguns dos mircosserviços são: 
   - **customer-manager**, **lab-manager**, **stock-manager**, **orders-manager**.  
 
 Para mais informações, acesse: [Amazon SQS](https://aws.amazon.com/pt/sqs)
